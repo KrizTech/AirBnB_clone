@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-""" module for Review class """
+"""
+Review class, a subclass of BaseModel class
+"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
     """
-    initiation of Review that inherits from BaseModel class
-    Public Class Attributes:
-       (string) place_id: initalized as empty string
-       (string) user_id: initalized as empty string
-       (string) text: initalized as empty string
+    A subclass of BaseModel class
+    Public class attributes:
+        place_id:            (str) will be Place.id
+        user_id:             (str) will be User.id
+        text:                (str)
     """
     place_id = ""
     user_id = ""
