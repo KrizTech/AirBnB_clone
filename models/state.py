@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""
-State class, a subclass of BaseModel
-"""
+"""Defines the State class."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
+    """Represent a state.
+
+    Attributes:
+        name (str): The name of the state.
     """
-    A subclass of BaseModel class
-    Public class attribute:
-        name: (str)
-    """
+
     name = ""
